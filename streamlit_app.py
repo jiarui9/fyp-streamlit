@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from tensorflow.keras.models import load_model
+import tensorflow as tf
 import numpy as np
 
 # Load your trained model
