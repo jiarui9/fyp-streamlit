@@ -1,7 +1,12 @@
 import streamlit as st
 import pandas as pd
-import joblib
+from tensorflow.keras.models import load_model
 import numpy as np
+
+
+
+# Load the model
+model = load_model('MLP_model.h5')
 
 # Load your trained model
 model = joblib.load('domain_rf_model.joblib')
