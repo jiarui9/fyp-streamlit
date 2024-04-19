@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Load the model
-model = load_model('C:\\Users\\Asus\\OneDrive\\Desktop\\FYP_notebook\\MLP_model.h5')
+# model = load_model('C:\\Users\\Asus\\OneDrive\\Desktop\\FYP_notebook\\MLP_model.h5')
 
 # Define the Streamlit app
 def main():
@@ -24,7 +24,7 @@ def main():
         features = np.array([[SEO_Score, Domain_Age, TLD_Score, Search_Occurrences,
                               Word_Composition_Score, Domain_Length_Score]])
         # Predict the price
-        price = model.predict(features)
+        # price = model.predict(features)
         # Display the prediction
         st.success(f"The predicted price of the domain is: ${price[0][0]:.2f}")
 
