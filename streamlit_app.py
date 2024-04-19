@@ -6,10 +6,7 @@ import numpy as np
 
 
 # Load the model
-# model = load_model('MLP_model.h5')
-
-# Load your trained model
-model = joblib.load('domain_rf_model.joblib')
+model = load_model('MLP_model.h5')
 
 # Define the structure of your web app
 st.title('Domain Name Price Prediction')
