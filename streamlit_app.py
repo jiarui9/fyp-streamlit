@@ -3,7 +3,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 
 # Load the model
-model = load_model('path_to_your_directory/MLP_model.h5')
+model = load_model('C:\\Users\\Asus\\OneDrive\\Desktop\\FYP_notebook\\MLP_model.h5')
 
 # Define the Streamlit app
 def main():
